@@ -1,0 +1,109 @@
+.row img {width:100%;}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 400px;
+}
+
+
+#koop a {
+    display: block;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 8px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #757575;
+    text-decoration: none;
+    width: auto;
+    white-space: nowrap;
+}
+
+#koopBenz{
+	background:url(images/koop-icons.png) no-repeat 50% 0;
+}
+
+#koopBenz:hover{
+	background-position:50% -70px;
+}
+
+#koopVW{
+	background:url(images/koop-icons.png) no-repeat 50% -140px;
+}
+
+#koopVW:hover{
+	background-position:50% -210px;
+}
+
+#koop a#koopPorsche{
+	background:url(images/koop-icons.png) no-repeat 50% -280px;
+	width:81px;
+}
+
+#koopPorsche:hover{
+	background-position:50% -350px;
+}
+
+#koopDHL{
+	background:url(images/koop-icons.png) no-repeat 50% -420px;
+}
+
+#koopDHL:hover{
+	background-position:50% -490px;
+}
+
+#koopIASC{
+	background:url(images/koop-icons.png) no-repeat 50% -560px;
+}
+
+#koopIASC:hover{
+	background-position:50% -630px;
+}
+
+#koopFresenius{
+	background:url(images/koop-icons.png) no-repeat 50% -700px;
+}
+
+#koopFresenius:hover{
+	background-position:50% -770px;
+}
+
+#koopDermatest{
+	background:url(images/koop-icons.png) no-repeat 50% -840px;
+}
+
+#koopZeitgard{
+	background:url(images/koop-icons.png) no-repeat 50% -980px;
+}
+
+#koopZeitgard:hover {
+	background-position:50% -1050px;
+}
+
+#koopDermatest:hover {
+	background-position:50% -910px;
+}
