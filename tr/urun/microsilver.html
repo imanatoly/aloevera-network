@@ -43,7 +43,7 @@
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Anasayfa</a></li>
               <li><a href="/tr/urun">Ürünler</a></li>
-              <li><a href="#">Yazılar</a></li>
+              <li><a href="/tr/yazi">Yazılar</a></li>
               <li><a href="#contact">İletişim</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -60,7 +60,7 @@
     <div class="jumbotron">
     <h1>Aylık Kota Yok, Giriş Ücreti Yok!</h1>
     <p class="lead">LR'de aylık ürün alma veya satma zorunluluğu yoktur. LR Üyeliği ile sıfır
-        riskle, borca girmeden alışyeriş yapabilir veya gelir elde edebilirsiniz.</p>
+        riskle, borca girmeden alışveriş yapabilir veya gelir elde edebilirsiniz.</p>
     <p><a class="btn btn-lg btn-primary" href="#contact" role="button">Şimdi harekete
         geçin! &raquo;</a></p>
 </div>
@@ -110,6 +110,14 @@
 </p>
 
 </div>
+            <div>
+
+    <h4>Yazılar</h4>
+<p>
+    <a href="/tr/yazi/2017/aloe-vera-mucizesi.html">Aloe Vera Mucizesi</a><br/>
+</p>
+
+</div>
         </div>
         <div class="col-md-4">
             <div class="firsat">
@@ -132,7 +140,7 @@
 
     <img src="/img/brand.png"/>
 
-    <p><a class="btn btn-primary" href="#contact" role="button">Şimdi harekete geçin! &raquo;</a></p>
+    <h3>Şimdi harekete geçin!</h3>
 </div>
         </div>
 
@@ -151,7 +159,7 @@
             <h2>WhatsApp</h2>
             <img src="/img/template/whatsapp.png" style="width:70px; float:left; margin-right:20px;"/>
             <p><strong>(537) 200 1231</strong> nolu telefona WhatsApp ile erişebilirsiniz. </p>
-            <br>
+            <br/>
             <h2>EPosta</h2>
             <img src="/img/template/email.png" style="width:64px; float:left; margin-right:20px;"/>
 
@@ -160,26 +168,26 @@
         <div class="col-md-4">
             <div class="contact_form">
                 <h2>LR Üyelik Bilgi Formu</h2>
-                <form action="https://formspree.io/724aloevera@gmail.com" method="POST">
-                    <input type="hidden" name="_subject" value="Uyelik Bilgi Istegi!"/>
+                <form action="https://formspree.io/724aloevera@gmail.com" method="POST" id="contact_form">
+                    <input name="_subject" value="Uyelik Bilgi Istegi!" type="hidden"/>
                     <!--input type="hidden" name="_next" value="/thanks.html" /-->
                     <div class="form-group">
                         <label for="app_name">Adınız Soyadınız</label>
-                        <input name="name" class="form-control" id="app_name" type="text"/>
+                        <input name="name" class="form-control" id="app_name" type="text" required/>
                     </div>
                     <div class="form-group">
                         <label for="app_phone">Cep telefonunuz</label>
-                        <input name="phone" class="form-control" id="app_phone" type="text"/>
+                        <input name="phone" class="form-control contact-group" id="app_phone" type="text"/>
                     </div>
                     <div class="form-group">
                         <label for="app_email">E-posta adresiniz</label>
-                        <input name="_replyto" class="form-control" id="app_email" type="email"/>
+                        <input name="_replyto" class="form-control contact-group" id="app_email" type="email"/>
                     </div>
                     <div class="form-group">
                         <label for="app_msg">Mesajınız</label>
                         <textarea name="mesaj" class="form-control" id="app_msg" rows="2"></textarea>
                     </div>
-                    <input type="text" name="_gotcha" style="display:none"/>
+                    <input name="_gotcha" style="display:none" type="text"/>
                     <button type="submit" class="btn btn-primary">BİLGİ ALMAK İSTİYORUM</button>
                 </form>
             </div>
@@ -217,6 +225,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+    <script src="/js/site.js"></script>
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
