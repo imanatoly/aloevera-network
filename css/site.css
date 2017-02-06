@@ -6,10 +6,11 @@ h3 { color: #469;}
 .row img {width:100%;}
 .top-buffer { margin-top:20px; }
 
-img.floating-product {
-width:300px;
+img.floating-halfsize {
+width:50%;
 float:left;
 margin-right:30px;
+margin-bottom:20px;
 }
 
 .label {
@@ -65,6 +66,16 @@ padding: 20px;
 text-align:center;
 }
 
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 767px) {
+
+img.floating-halfsize {
+width:100%;
+margin-right:0;
+float:none;
+}
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
