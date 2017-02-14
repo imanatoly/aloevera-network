@@ -4,7 +4,7 @@ h2 { color: #485;}
 h3 { color: #469;}
 
 .row img {width:100%;}
-.top-buffer { margin-top:20px; }
+.top-buffer { margin-top:30px; }
 
 img.floating-halfsize {
 width:45%;
@@ -76,8 +76,55 @@ margin-right:0;
 float:none;
 }
 }
+
+/* SHARE BUTTONS
+*/
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline-block;
+}
+ul.share-buttons li a {
+  display:block;
+  height: 32px;
+  padding: 3px 10px;
+}
+
+ul.share-buttons img{
+  width: 24px;
+  margin-right:10px;
+}
+
+ul.share-buttons .twitter {
+background-color:#00a8f3;
+}
+
+ul.share-buttons li.twitter a:hover {
+background-color:#20c8f3;
+text-decoration:none;
+}
+
+ul.share-buttons li.facebook a {
+background-color:#2d5f9a;
+}
+
+ul.share-buttons li.facebook a:hover {
+background-color:#4d7f9a;
+text-decoration:none;
+}
+
+ul.share-buttons a {
+  color: #eee;
+}
+ul.share-buttons a:visited {
+  color: #eee;
+}
 /* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+*/
 
 /* Carousel base class */
 .carousel {
