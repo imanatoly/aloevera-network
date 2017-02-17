@@ -3,6 +3,9 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>http://aloevera-network.com/tr/urun/zeitgard.html</loc>
+        <lastmod>2017-02-17</lastmod>
+    </url><url>
         <loc>http://aloevera-network.com/tr/urun/l-recapin.html</loc>
         <lastmod>2017-02-14</lastmod>
     </url><url>
@@ -13,9 +16,6 @@
         <lastmod>2017-02-14</lastmod>
     </url><url>
         <loc>http://aloevera-network.com/tr/urun/aloevera-boxset.html</loc>
-        <lastmod>2017-02-14</lastmod>
-    </url><url>
-        <loc>http://aloevera-network.com/tr/urun/zeitgard.html</loc>
         <lastmod>2017-02-14</lastmod>
     </url><url>
         <loc>http://aloevera-network.com/tr/urun/parfum.html</loc>
