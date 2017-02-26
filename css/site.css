@@ -27,6 +27,10 @@ float: left;
 margin-right: 10px;
 }
 
+.nav .social a {padding: 12px 10px;}
+.nav .social a img {width:24px; }
+
+
 .jumbotron {
     background:url(/img/carousel/1-131022105136.jpg) no-repeat left top;
     background-size: 105% 100%;
@@ -78,6 +82,9 @@ width:100%;
 margin-right:0;
 float:none;
 }
+
+.nav a  img {margin-right: 20px;}
+.visible-xs-inline { display: inline-block !important; }
 }
 
 /* SHARE BUTTONS
