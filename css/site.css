@@ -3,9 +3,15 @@ body { font-size: 13pt; }
 p { margin 0 0 20px; }
 
 h2 { color: #485;}
-h3 { color: #469;}
+h3 { color: #d83;}
 
 .row img {width:100%;}
+.media .media-left a {width:128px; height: 48px; display:block; overflow: hidden;}
+.media .media-left a img {width:118px; }
+
+.latest-products div a {height: 64px; display:block; overflow: hidden;}
+
+
 .top-buffer { margin-top:30px; }
 .bordered {border: 1px solid #f7f7f7; }
 
