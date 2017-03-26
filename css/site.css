@@ -6,10 +6,17 @@ h2 { color: #485;}
 h3 { color: #d83;}
 
 .row img {width:100%;}
+
 .media .media-left a {width:128px; height: 48px; display:block; overflow: hidden;}
 .media .media-left a img {width:118px; }
 
+.media .media-body a span {color:black;}
+
 .latest-products div a {height: 64px; display:block; overflow: hidden;}
+
+.latest-articles .media {margin-bottom: 30px; }
+.latest-articles .media .media-left a {width:128px; height: 68px; display:block; overflow: hidden;}
+.latest-articles .media .media-left a img {width:118px; }
 
 
 .top-buffer { margin-top:30px; }
