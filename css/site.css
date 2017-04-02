@@ -29,6 +29,13 @@ margin-right:30px;
 margin-bottom:20px;
 }
 
+img.floating-halfsize-right {
+width:45%;
+float:right;
+margin-left:30px;
+margin-bottom:20px;
+}
+
 .label {
 font-size:100%;
 line-height:200%;
