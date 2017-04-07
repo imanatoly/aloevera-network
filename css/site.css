@@ -103,6 +103,12 @@ margin-right:0;
 float:none;
 }
 
+img.floating-halfsize-right {
+width:100%;
+margin-left:0;
+float:none;
+}
+
 .nav a  img {margin-right: 20px;}
 .visible-xs-inline { display: inline-block !important; }
 }
