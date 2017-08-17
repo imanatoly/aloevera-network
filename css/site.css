@@ -42,9 +42,11 @@ line-height:200%;
 }
 
 .navbar-brand img {
-width: 24px;
+width: 42px;
+height: 32px;
 float: left;
 margin-right: 10px;
+margin-top: -6px;
 }
 
 .nav .social a {padding: 12px 10px;}
