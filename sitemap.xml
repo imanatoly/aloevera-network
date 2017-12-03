@@ -3,6 +3,12 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>http://aloevera-network.com/tr/urun/termolosyon.html</loc>
+        <lastmod>2017-12-03</lastmod>
+    </url><url>
+        <loc>http://aloevera-network.com/tr/urun/acil-durum-spreyi.html</loc>
+        <lastmod>2017-12-03</lastmod>
+    </url><url>
         <loc>http://aloevera-network.com/tr/urun/aloe-vera-box-set.html</loc>
         <lastmod>2017-11-29</lastmod>
     </url><url>
@@ -26,9 +32,6 @@
     </url><url>
         <loc>http://aloevera-network.com/tr/urun/figuactiv-ile-ideal-kilonuza-ulasin.html</loc>
         <lastmod>2017-04-01</lastmod>
-    </url><url>
-        <loc>http://aloevera-network.com/tr/urun/acil-durum-spreyi.html</loc>
-        <lastmod>2017-03-16</lastmod>
     </url><url>
         <loc>http://aloevera-network.com/tr/urun/aloevera-boxset.html</loc>
         <lastmod>2017-03-16</lastmod>
