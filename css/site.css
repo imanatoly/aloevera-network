@@ -1,277 +1,277 @@
-body { font-size: 13pt; }
+	body { font-size: 13pt; }
 
-p { margin 0 0 20px; }
+	p { margin 0 0 20px; }
 
-h2 { color: #485;}
-h3 { color: #d83;}
+	h2 { color: #485;}
+	h3 { color: #d83;}
 
-.row img {width:100%;}
+	.row img {width:100%;}
 
-.media .media-left a {width:128px; height: 48px; display:block; overflow: hidden;}
-.media .media-left a img {width:118px; }
+	.media .media-left a {width:128px; height: 48px; display:block; overflow: hidden;}
+	.media .media-left a img {width:118px; }
 
-.media .media-body a span {color:black;}
+	.media .media-body a span {color:black;}
 
-.latest-products div a {height: 64px; display:block; overflow: hidden;}
+	.latest-products div a {height: 64px; display:block; overflow: hidden;}
 
-.latest-articles .media {margin-bottom: 30px; }
-.latest-articles .media .media-left a {width:128px; height: 68px; display:block; overflow: hidden;}
-.latest-articles .media .media-left a img {width:118px; }
-
-
-.top-buffer { margin-top:30px; }
-.bordered {border: 1px solid #f7f7f7; }
-
-img.floating-halfsize {
-width:45%;
-float:left;
-margin-right:30px;
-margin-bottom:20px;
-}
-
-img.floating-halfsize-right {
-width:45%;
-float:right;
-margin-left:30px;
-margin-bottom:20px;
-}
-
-.label {
-font-size:100%;
-line-height:200%;
-}
-
-.navbar-brand img {
-width: 42px;
-height: 32px;
-float: left;
-margin-right: 10px;
-margin-top: -6px;
-}
-
-.nav .social a {padding: 12px 10px;}
-.nav .social a img {width:24px; }
+	.latest-articles .media {margin-bottom: 30px; }
+	.latest-articles .media .media-left a {width:128px; height: 68px; display:block; overflow: hidden;}
+	.latest-articles .media .media-left a img {width:118px; }
 
 
-.jumbotron {
-    background:url(/img/carousel/1-131022105136.jpg) no-repeat left top;
-    background-size: 105% 100%;
-    background-color: rgba(255,255,255,0.6);
-    color: #597;
-}
-.jumbotron h1 {
-    text-shadow: 2px 1px 4px rgba(33,96,129,.5);
-}
-.jumbotron .lead {
-    color: #567;
-}
+	.top-buffer { margin-top:30px; }
+	.bordered {border: 1px solid #f7f7f7; }
 
-.contact {
-background-color: #ebf0f7;
-padding-bottom:30px;
-}
+	img.floating-halfsize {
+	width:45%;
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+	}
 
-.contact_form {
-margin-top: 20px;
-padding: 10px 30px 30px 30px;
-background-color: #fff;
-border-radius: 2px;
--webkit-box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
--moz-box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
-box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
-}
+	img.floating-halfsize-right {
+	width:45%;
+	float:right;
+	margin-left:30px;
+	margin-bottom:20px;
+	}
 
-.firsat {
-padding: 0px 20px 20px 20px;
-border-width: 1px 1px 1px 1px;
-border-style: solid;
-border-color: #e7f5e7;
-}
+	.label {
+	font-size:100%;
+	line-height:200%;
+	}
 
-.list-group-item {padding: 3px 15px; }
+	.navbar-brand img {
+	width: 42px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -6px;
+	}
 
-.foot-menu {
-padding: 20px;
-text-align:center;
-}
+	.nav .social a {padding: 12px 10px;}
+	.nav .social a img {width:24px; }
 
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 767px) {
+	.jumbotron {
+		background:url(/img/carousel/1-131022105136.jpg) no-repeat left top;
+		background-size: 105% 100%;
+		background-color: rgba(255,255,255,0.6);
+		color: #597;
+	}
+	.jumbotron h1 {
+		text-shadow: 2px 1px 4px rgba(33,96,129,.5);
+	}
+	.jumbotron .lead {
+		color: #567;
+	}
 
-img.floating-halfsize {
-width:100%;
-margin-right:0;
-float:none;
-}
+	.contact {
+	background-color: #ebf0f7;
+	padding-bottom:30px;
+	}
 
-img.floating-halfsize-right {
-width:100%;
-margin-left:0;
-float:none;
-}
+	.contact_form {
+	margin-top: 20px;
+	padding: 10px 30px 30px 30px;
+	background-color: #fff;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
+	-moz-box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
+	box-shadow: 0px 3px 1px 0px rgba(211,213,207,0.75);
+	}
 
-.nav a  img {margin-right: 20px;}
-.visible-xs-inline { display: inline-block !important; }
-}
+	.firsat {
+	padding: 0px 20px 20px 20px;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #e7f5e7;
+	}
 
-/* SHARE BUTTONS
-*/
+	.list-group-item {padding: 3px 15px; }
 
-ul.share-buttons{
-  list-style: none;
-  padding: 0;
-}
-
-ul.share-buttons li{
-  display: inline-block;
-}
-ul.share-buttons li a {
-  display:block;
-  height: 32px;
-  padding: 3px 10px;
-}
-
-ul.share-buttons img{
-  width: 24px;
-  margin-right:10px;
-}
-
-ul.share-buttons .twitter {
-background-color:#00a8f3;
-}
-
-ul.share-buttons li.twitter a:hover {
-background-color:#20c8f3;
-text-decoration:none;
-}
-
-ul.share-buttons li.facebook a {
-background-color:#2d5f9a;
-}
-
-ul.share-buttons li.facebook a:hover {
-background-color:#4d7f9a;
-text-decoration:none;
-}
-
-ul.share-buttons a {
-  color: #eee;
-}
-ul.share-buttons a:visited {
-  color: #eee;
-}
-/* CUSTOMIZE THE CAROUSEL
-*/
-
-/* Carousel base class */
-.carousel {
-  height: 400px;
-  margin-bottom: 40px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-  text-shadow: 5px 5px 5px rgba(0,0,0,.9);
-  bbackground:rgba(0,0,16,0.4)
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 400px;
-  bbackground-color: #ee0;
-}
-.carousel .item h1 {
-color: #cc9;
-}
-
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 400px;
-  opacity:0.89;
-}
+	.foot-menu {
+	padding: 20px;
+	text-align:center;
+	}
 
 
-#koop a {
-    display: block;
-    font-size:9pt;
-    float: left;
-    padding-top: 30px;
-    padding-bottom: 8px;
-    margin-left: 9px;
-    margin-right: 9px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #757575;
-    text-decoration: none;
-    width: auto;
-    white-space: nowrap;
-}
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 767px) {
 
-#koopBenz{
-	background:url(/img/template/koop-icons.png) no-repeat 50% 0;
-}
+	img.floating-halfsize {
+	width:100%;
+	margin-right:0;
+	float:none;
+	}
 
-#koopBenz:hover{
-	background-position:50% -70px;
-}
+	img.floating-halfsize-right {
+	width:100%;
+	margin-left:0;
+	float:none;
+	}
 
-#koopVW{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -140px;
-}
+	.nav a  img {margin-right: 20px;}
+	.visible-xs-inline { display: inline-block !important; }
+	}
 
-#koopVW:hover{
-	background-position:50% -210px;
-}
+	/* SHARE BUTTONS
+	*/
 
-#koop a#koopPorsche{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -280px;
-	width:81px;
-}
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
 
-#koopPorsche:hover{
-	background-position:50% -350px;
-}
+	ul.share-buttons li{
+	  display: inline-block;
+	}
+	ul.share-buttons li a {
+	  display:block;
+	  height: 32px;
+	  padding: 3px 10px;
+	}
 
-#koopDHL{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -420px;
-}
+	ul.share-buttons img{
+	  width: 24px;
+	  margin-right:10px;
+	}
 
-#koopDHL:hover{
-	background-position:50% -490px;
-}
+	ul.share-buttons .twitter {
+	background-color:#00a8f3;
+	}
 
-#koopIASC{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -560px;
-}
+	ul.share-buttons li.twitter a:hover {
+	background-color:#20c8f3;
+	text-decoration:none;
+	}
 
-#koopIASC:hover{
-	background-position:50% -630px;
-}
+	ul.share-buttons li.facebook a {
+	background-color:#2d5f9a;
+	}
 
-#koopFresenius{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -700px;
-}
+	ul.share-buttons li.facebook a:hover {
+	background-color:#4d7f9a;
+	text-decoration:none;
+	}
 
-#koopFresenius:hover{
-	background-position:50% -770px;
-}
+	ul.share-buttons a {
+	  color: #eee;
+	}
+	ul.share-buttons a:visited {
+	  color: #eee;
+	}
+	/* CUSTOMIZE THE CAROUSEL
+	*/
 
-#koopDermatest{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -840px;
-}
+	/* Carousel base class */
+	.carousel {
+	  height: 400px;
+	  margin-bottom: 40px;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+	  z-index: 10;
+	  text-shadow: 5px 5px 5px rgba(0,0,0,.9);
+	  bbackground:rgba(0,0,16,0.4)
+	}
 
-#koopZeitgard{
-	background:url(/img/template/koop-icons.png) no-repeat 50% -980px;
-}
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+	  height: 400px;
+	  bbackground-color: #ee0;
+	}
+	.carousel .item h1 {
+	color: #cc9;
+	}
 
-#koopZeitgard:hover {
-	background-position:50% -1050px;
-}
+	.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 400px;
+	  opacity:0.89;
+	}
 
-#koopDermatest:hover {
-	background-position:50% -910px;
-}
+
+	#koop a {
+		display: block;
+		font-size:9pt;
+		float: left;
+		padding-top: 30px;
+		padding-bottom: 8px;
+		margin-left: 9px;
+		margin-right: 9px;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #757575;
+		text-decoration: none;
+		width: auto;
+		white-space: nowrap;
+	}
+
+	#koopBenz{
+		background:url(/img/template/koop-icons.png) no-repeat 50% 0;
+	}
+
+	#koopBenz:hover{
+		background-position:50% -70px;
+	}
+
+	#koopVW{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -140px;
+	}
+
+	#koopVW:hover{
+		background-position:50% -210px;
+	}
+
+	#koop a#koopPorsche{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -280px;
+		width:81px;
+	}
+
+	#koopPorsche:hover{
+		background-position:50% -350px;
+	}
+
+	#koopDHL{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -420px;
+	}
+
+	#koopDHL:hover{
+		background-position:50% -490px;
+	}
+
+	#koopIASC{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -560px;
+	}
+
+	#koopIASC:hover{
+		background-position:50% -630px;
+	}
+
+	#koopFresenius{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -700px;
+	}
+
+	#koopFresenius:hover{
+		background-position:50% -770px;
+	}
+
+	#koopDermatest{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -840px;
+	}
+
+	#koopZeitgard{
+		background:url(/img/template/koop-icons.png) no-repeat 50% -980px;
+	}
+
+	#koopZeitgard:hover {
+		background-position:50% -1050px;
+	}
+
+	#koopDermatest:hover {
+		background-position:50% -910px;
+	}
